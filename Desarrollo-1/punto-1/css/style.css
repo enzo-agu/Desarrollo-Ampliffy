@@ -1,0 +1,12 @@
+img {
+    height: 200px;
+    width: 250px;
+}
+
+.box {
+    width: 450px;
+    height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    transition: width 2s, height 2s;
+}
