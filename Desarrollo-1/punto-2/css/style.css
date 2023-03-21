@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(200, 197, 200);
+}
+div img{
+    width: 700px;
+    height: 700px;
+    margin-left: 29%;
+    margin-top: 10%;
+}
+
+@media (max-width: 768px) and (min-width: 390px) {
+    .viewportMobile{
+        background-color: rgb(67, 113, 182);
+    }   
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    .viewportTablet{
+        background-color: rgb(167, 213, 182);
+    }   
+}
