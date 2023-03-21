@@ -12,3 +12,7 @@
 ### PUNTO-3:
 - Textarea que recibe mensajes.
 - Clase constructora que implementa la funcionalidad para tomar el mensaje que el usuario envía y mostrarlo a través del DOM.
+
+### PUNTO-4:
+- Imagen que muestra la úlitma visita realizada.
+- Clase constructora que recibe un contenedor e implementa otro, para mostrar un mensaje al pasar el puntero del mouse por encima de la imagen.
