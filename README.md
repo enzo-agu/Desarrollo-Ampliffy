@@ -26,3 +26,8 @@
 - Se installa la librería "request" y "fs" a través de `npm i request` y `npm i fs` para descarga de imágenes.
 - Se crea una clase constructora, la cual evalúa que los formatos de las imágenes a descargar sean `jpg` o `png`.
 - Se descarga una imagen con extensión `jpg` a través de una url especificada y se guarda dentro de la carpeta "nodeJs".
+
+## Desarrollo 3
+- En base al código fuente de la página podría hacer algunos cambios en los márgenes de los contenedores del video y/o del título para ajustar/quitar la línea blanca que se observa. 
+- Para vista "desktop" y "mobile" podría utilizar `media queries` de manera de adaptar el video y el título en base al dispositivo que se usa.
+- Según el caso podría utilizar algún compresor de video.

@@ -15,9 +15,9 @@ class ViewActualDate {
         containerDOM.innerHTML += ''
         const actualDate = new Date()
         containerDOM.innerHTML = `<h1>
-        Talk with us!</h1>
-        <h2> Last view. </h2>
+        Talk with us 📞!</h1>
         <p>${actualDate}</p>
+        <h2> Last view 👆. </h2>
         `
     }
 }
