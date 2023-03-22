@@ -18,4 +18,11 @@
 - Clase constructora que recibe un contenedor e implementa otro, para mostrar un mensaje al pasar el puntero del mouse por encima de la imagen.
 
 ### Jest Test
-- Se incorpora la librería de jest para realizar pruebas de clase.
+- Se instala la librería Jest a través de `npm i jest -D`.
+- Para correr las pruebas se utiliza `npm run test` en la carpeta "Test" de cada desarrollo.
+
+## Desarrollo 2
+- Se instala el package de Nodejs a taravés de `npm init -y`.
+- Se installa la librería "request" y "fs" a través de `npm i request` y `npm i fs` para descarga de imágenes.
+- Se crea una clase constructora, la cual evalúa que los formatos de las imágenes a descargar sean `jpg` o `png`.
+- Se descarga una imagen con extensión `jpg` a través de una url especificada y se guarda dentro de la carpeta "nodeJs" .
