@@ -25,7 +25,7 @@
 - Se instala el package de Nodejs a taravés de `npm init -y`.
 - Se installa la librería "request" y "fs" a través de `npm i request` y `npm i fs` para descarga de imágenes.
 - Se crea una clase constructora, la cual evalúa que los formatos de las imágenes a descargar sean `jpg` o `png`.
-- Se descarga una imagen con extensión `jpg` a través de una url especificada y se guarda dentro de la carpeta "nodeJs".
+- Se descarga una imagen con extensión `jpg` a través de una url especificada, utilizando el comando `node index` y se guarda dentro de la carpeta "nodeJs".
 
 ## Desarrollo 3
 - En base al código fuente de la página podría hacer algunos cambios en los márgenes de los contenedores del video y/o del título para ajustar/quitar la línea blanca que se observa. 
