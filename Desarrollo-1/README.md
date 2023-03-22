@@ -16,3 +16,6 @@
 ### PUNTO-4:
 - Imagen que muestra la úlitma visita realizada.
 - Clase constructora que recibe un contenedor e implementa otro, para mostrar un mensaje al pasar el puntero del mouse por encima de la imagen.
+
+### Jest Test
+- Se incorpora la librería de jest para realizar pruebas de clase.
