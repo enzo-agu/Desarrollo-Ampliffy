@@ -1,20 +1,35 @@
-body{
+body {
     background-color: rgb(200, 197, 200);
 }
-div img{
-    width: 700px;
-    height: 700px;
+
+div img {
+    width: 650px;
+    height: 650px;
     margin-left: 29%;
-    margin-top: 10%;
+    margin-top: -2%;
+    border-radius: 8px;
+}
+
+.currentViewport {
+    margin-top: 5%;
 }
 
 @media (max-width: 768px) and (min-width: 390px) {
-    .viewportMobile{
+    .viewportMobile {
         background-color: rgb(67, 113, 182);
-    }   
+    }
+
+    .currentViewport {
+        margin-top: 10%;
+    }
 }
+
 @media (max-width: 1024px) and (min-width: 768px) {
-    .viewportTablet{
+    .viewportTablet {
         background-color: rgb(167, 213, 182);
-    }   
+    }
+
+    .currentViewport {
+        margin-top: 15%;
+    }
 }

@@ -8,13 +8,16 @@ class Viewport {
     }
     viewportMobile() {
         this.container.classList.add('viewportMobile')
+        currentViewport.classList.add('currentViewport')
         currentViewport.innerText=`Mobile view.`
     }
     viewportTablet() {
         this.container.classList.add('viewportTablet')
+        currentViewport.classList.add('currentViewport')
         currentViewport.innerText=`Tablet view.`
     }
     viewportDesktop() {
+        currentViewport.classList.add('currentViewport')
         currentViewport.innerText=`Desktop view.`
     }
 }
