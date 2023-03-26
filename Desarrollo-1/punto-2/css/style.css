@@ -1,32 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
-    background-color: rgb(200, 197, 200);
+    background-color: rgb(51, 47, 47);
 }
 
 div img {
     width: 650px;
     height: 650px;
-    margin-left: 29%;
-    margin-top: -2%;
+    margin-left: 31%;
+    margin-top: 0%;
     border-radius: 8px;
+    border: solid 3px rgb(201, 187, 187);
 }
 
 .currentViewport {
     margin-top: 5%;
+    margin-left: 5%;
+    color: beige;
 }
 
 @media (max-width: 768px) and (min-width: 390px) {
     .viewportMobile {
-        background-color: rgb(67, 113, 182);
+        background-color: rgb(146, 151, 158);
     }
 
     .currentViewport {
-        margin-top: 10%;
+        margin-top: 12%;
     }
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
     .viewportTablet {
-        background-color: rgb(167, 213, 182);
+        background-color: rgb(79, 90, 83);
     }
 
     .currentViewport {

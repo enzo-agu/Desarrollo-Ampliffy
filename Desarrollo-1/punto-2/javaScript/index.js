@@ -1,7 +1,12 @@
 const buttonOfChange = document.createElement('button')
-const containerTitle = document.createElement('div')
-const currentViewport=document.getElementById('current-viewport')
+window.addEventListener('DOMContentLoaded', () => {
+    buttonOfChange.innerHTML = `<h3>Press on the different sizes of devices!</h3>`
+    buttonOfChange.style.marginLeft = '50px'
+    buttonOfChange.style.borderRadius = '8px'
+    document.body.appendChild(buttonOfChange)
+})
 
+const currentViewport = document.getElementById('current-viewport')
 class Viewport {
     constructor(container) {
         this.container = container
@@ -9,24 +14,18 @@ class Viewport {
     viewportMobile() {
         this.container.classList.add('viewportMobile')
         currentViewport.classList.add('currentViewport')
-        currentViewport.innerText=`Mobile view.`
+        currentViewport.innerText = `Mobile view.`
     }
     viewportTablet() {
         this.container.classList.add('viewportTablet')
         currentViewport.classList.add('currentViewport')
-        currentViewport.innerText=`Tablet view.`
+        currentViewport.innerText = `Tablet view.`
     }
     viewportDesktop() {
         currentViewport.classList.add('currentViewport')
-        currentViewport.innerText=`Desktop view.`
+        currentViewport.innerText = `Desktop view.`
     }
 }
-
-containerTitle.innerText = `Press the button below to change the background color and the title depending the viewport.`
-buttonOfChange.innerText = `Click here !`
-
-document.body.appendChild(containerTitle)
-document.body.appendChild(buttonOfChange)
 
 buttonOfChange.addEventListener('click', () => {
     const containerImage = document.getElementById('container-image')
