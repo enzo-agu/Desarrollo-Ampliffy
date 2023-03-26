@@ -1,4 +1,4 @@
-# Desarrollo Amplyffy
+# Desarrollo Ampliffy
 
 ## Desarrollo 1
 
