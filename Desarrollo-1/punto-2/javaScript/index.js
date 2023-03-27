@@ -6,23 +6,23 @@ window.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(buttonOfChange)
 })
 
-const currentViewport = document.getElementById('current-viewport')
+const currentViewport = document.getElementById('viewport')
 class Viewport {
     constructor(container) {
         this.container = container
     }
     viewportMobile() {
-        this.container.classList.add('viewportMobile')
-        currentViewport.classList.add('currentViewport')
+        this.container.classList.add('viewport-mobile')
+        currentViewport.classList.add('current-viewport')
         currentViewport.innerText = `Mobile view.`
     }
     viewportTablet() {
-        this.container.classList.add('viewportTablet')
-        currentViewport.classList.add('currentViewport')
+        this.container.classList.add('viewport-tablet')
+        currentViewport.classList.add('current-viewport')
         currentViewport.innerText = `Tablet view.`
     }
     viewportDesktop() {
-        currentViewport.classList.add('currentViewport')
+        currentViewport.classList.add('current-viewport')
         currentViewport.innerText = `Desktop view.`
     }
 }

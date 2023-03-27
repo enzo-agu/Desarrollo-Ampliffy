@@ -19,28 +19,28 @@ div img {
     border: solid 3px rgb(201, 187, 187);
 }
 
-.currentViewport {
+.current-viewport {
     margin-top: 5%;
     margin-left: 5%;
     color: beige;
 }
 
 @media (max-width: 768px) and (min-width: 390px) {
-    .viewportMobile {
+    .viewport-mobile {
         background-color: rgb(146, 151, 158);
     }
 
-    .currentViewport {
+    .current-viewport {
         margin-top: 12%;
     }
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
-    .viewportTablet {
+    .viewport-tablet {
         background-color: rgb(79, 90, 83);
     }
 
-    .currentViewport {
+    .current-viewport {
         margin-top: 15%;
     }
 }

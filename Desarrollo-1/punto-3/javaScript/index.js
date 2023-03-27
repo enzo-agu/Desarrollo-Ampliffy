@@ -14,14 +14,14 @@ class Textarea {
             `
             response.innerHTML = `
             <h3> This is the quality of our pictures. Do you like it 😃?</h3>
-            <img src=${this.img1} alt='image' title='Eiffel tower'>
-            <img src=${this.img2} alt='image' title='City'>
+            <img src=${this.img1} alt='Eiffel tower' title='Eiffel tower'>
+            <img src=${this.img2} alt='City' title='City'>
             `
         }, 1000)
     }
 }
 
-const textReceived = document.getElementById('textReceived')
+const textReceived = document.getElementById('new-text-received')
 const response = document.getElementById('response')
 const ShowMessage = document.createElement('div')
 const TextArea = new Textarea(textReceived, response, './img/img1.jpg', './img/img2.jpg')

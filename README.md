@@ -29,5 +29,5 @@
 
 ## Desarrollo 3
 - En base al código fuente de la página podría hacer algunos cambios en los márgenes de los contenedores del video y/o del título para ajustar/quitar la línea blanca que se observa. 
-- Para vista "desktop" y "mobile" podría utilizar `media queries` de manera de adaptar el video y el título en base al dispositivo que se usa.
+- Para vista "desktop" y "mobile" podría utilizar `media queries`, de manera de adaptar el video y el título en base al dispositivo que se usa.
 - Según el caso podría utilizar algún compresor de video.
